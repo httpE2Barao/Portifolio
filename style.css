@@ -11,6 +11,9 @@ html, body{
     width: 98vw;
     background-color: rgba(76, 0, 255, 0.514);
 }
+article {
+    height: max-content;
+}
 
 header { 
     display: block;
@@ -31,16 +34,17 @@ header section.opções {
     position: relative;
     left: 5%;
 }
-header > section > a {
+header > section > div {
     display: inline-block;
     margin: 15px;
+    margin-right: 0px;
+    padding-right: 15px;
     font-size: 1.3em;
     font-weight: 500;
 }
-header > section > a:hover {
-    text-decoration: underline;
-    cursor: pointer;
-    transition: text-decoration .5;
+header > section > div:hover {
+    cursor: default;
+    border-bottom: 3px solid #ffff;
 }
 
 main {
@@ -99,14 +103,14 @@ section#cards div {
     margin-left: 5%;
     text-align: center;
     border: 1px solid rgba(148, 148, 148, 0.39);
-    border-radius: 0px 30px;
+    border-radius: 0px 50px;
     box-shadow: -3px 3px 5px 0px rgb(0 0 0 / 40%);
     transition: transform .3s, box-shadow .3s;
 }
 section#cards div:hover {
     position: relative;
-    transform: translate(4px, -4px);
-    box-shadow: -7px 7px 5px rgba(0, 0, 0, 0.247);
+    transform: translate(5px, -5px);
+    box-shadow: -8px 8px 5px rgba(0, 0, 0, 0.247);
     transition: transform .3s, box-shadow .3s;
 }
 section#cards img {
