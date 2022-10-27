@@ -1,0 +1,118 @@
+* {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    box-sizing: border-box;
+    padding: 0cm;
+    margin: 0cm;
+    color: white;
+    text-decoration: none;
+}
+html, body{
+    height: 98vh;
+    width: 98vw;
+    background-color: rgba(76, 0, 255, 0.514);
+}
+
+header { 
+    display: block;
+    text-align: left;
+    width: 98vw;
+    height: 100px;
+    padding: 33px;
+    padding-left: 5%;
+}
+header h1 {
+    display: inline-block;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 900;
+    font-size: 2.5em;
+}
+header section.opções {
+    display: inline-block;
+    position: relative;
+    left: 5%;
+}
+header > section > a {
+    display: inline-block;
+    margin: 15px;
+    font-size: 1.3em;
+    font-weight: 500;
+}
+header > section > a:hover {
+    text-decoration: underline;
+    cursor: pointer;
+    transition: text-decoration .5;
+}
+
+main {
+    padding-top: 40px;
+}
+main h1 {
+    margin: 15px;
+    font-size: 2.7em;
+    font-weight: bolder;
+    text-shadow: 2px 2px 3px rgba(0, 0, 0, 0.233);
+}
+main p {
+    margin: 15px;
+}
+body > main > article > div#info {
+    max-width: 400px;
+    max-height: 400px;
+    position: relative;
+    left: 13%;
+    top: 50px;
+    text-align: left;
+}
+body main div input {
+    padding: 13px;
+    margin: 15px;
+    border-radius: 10px;
+    border: 1px solid rgba(128, 128, 128, 0.534); 
+    font-weight: bold;
+    font-size: 1.3em;
+    color: #000;
+}
+body main div.botão {
+    position: relative;
+    top: 5px;
+    transition: transform .3s
+}
+div.botão input {
+    transition: transform .2s;
+}
+div.botão input:hover {
+    position: relative;
+    transform: translate(0px, -4px);
+    transition: transform .3s;
+    cursor: pointer;
+}
+
+section#cards {
+    position: relative;
+    margin-left: 10%;
+    position: relative;
+    transform: translateY(130px);
+}
+section#cards div {
+    display: inline-block;
+    background-color: white;
+    margin-left: 5%;
+    text-align: center;
+    border: 1px solid rgba(148, 148, 148, 0.39);
+    border-radius: 0px 30px;
+    box-shadow: -3px 3px 5px 0px rgb(0 0 0 / 40%);
+    transition: transform .3s, box-shadow .3s;
+}
+section#cards div:hover {
+    position: relative;
+    transform: translate(4px, -4px);
+    box-shadow: -7px 7px 5px rgba(0, 0, 0, 0.247);
+    transition: transform .3s, box-shadow .3s;
+    cursor: pointer;
+}
+section#cards img {
+    position: relative;
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+}
