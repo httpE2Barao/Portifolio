@@ -45,14 +45,12 @@ header > section > div:hover {
 
 section#fundo {
     background-image: url(Imagens/Foto\ instagram.jpg);
-    background-position: center;
-    background-size: contain;
     background-repeat: no-repeat;
     background-position: right;
+    background-size: auto;
     position: absolute;
-    top: 1%;
-    min-width: 98vw;
-    min-height: 1000px;
+    min-width: 99vw;
+    min-height: 1177px;
 }
 
 main {
@@ -68,6 +66,8 @@ main p {
     margin: 15px;
 }
 body > main > article > div#info {
+    background-color: rgba(255, 255, 255, 0.521);
+    border-radius: 30px;
     max-width: 400px;
     max-height: 400px;
     position: relative;
@@ -98,7 +98,6 @@ div.botão input:hover {
     transition: transform .3s;
     cursor: pointer;
 }
-
 section#cards {
     position: relative;
     margin-left: 10%;
@@ -126,4 +125,47 @@ section#cards img {
     height: 200px;
     width: 200px;
     border-radius: 50%;
+}
+
+article#pag2 {
+    position: relative;
+    top: 200px;
+    margin: auto;
+    width: 99vw;
+    height: 100vh;
+    background-color: rgb(72, 49, 204);
+    box-shadow: inset 0px 10px 10px rgba(0, 0, 0, 0.438);
+    border-radius: 150px 0px;
+}
+article#pag2 section#bigcards{
+    text-align: center;
+}
+article#pag2 > h1 {
+    padding: 20px;
+    text-align: center;
+    color: white;
+    text-shadow: 4px 4px 5px rgba(0, 0, 0, 0.568);
+}
+article#pag2 section#bigcards > div {
+    display: inline-block;
+    min-width: 300px;
+    min-height: 50vh;
+    width: 20vw;
+    height: 35vw;
+    margin-left: 2%;
+    margin-right: 2%;
+    padding: 10px;
+    background-color: rgb(255, 127, 127);
+    border-radius: 30px;
+}
+article#pag2 section#bigcards div#imgs {
+    width: 17vw;
+    height: 35vh;
+    background-color: rgba(255, 255, 255, 0.664);
+    position: relative;
+    transform: translate(6%);
+}
+article#pag2 section#bigcards div#imgs iframe {
+    width: 17vw;
+    height: 35vh;
 }
