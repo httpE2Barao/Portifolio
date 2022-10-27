@@ -186,7 +186,7 @@ article#pag2 section#bigcards div#css > div.imgs {
 }
 
 article#pag2 section#bigcards div#css {
-    background-color: rgba(0, 119, 255, 0.74);
+    background-color: rgba(0, 81, 255, 0.637);
     height: 85vh;
 }
 article#pag2 section#bigcards div.imgs a > img {
@@ -200,13 +200,13 @@ article#pag2 section#bigcards > div.imgbottom{
     height: 100%;
 }
 article#pag2 section#bigcards div#js {
-    background-color: rgba(208, 255, 0, 0.815);
+    background-color: rgba(238, 255, 0, 0.815);
 }
 input#botgit  {
     background-color: #fff;
     padding: 15px;
     margin-top: 20px;
-    font-size: 1.5em;
+    font-size: 1.3em;
     font-weight: 700;
     border-radius: 10px;
     transition: transform .3s, border .4s;
