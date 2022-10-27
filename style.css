@@ -7,7 +7,7 @@
     color: #000;
 }
 html, body{
-    height: 250vh;
+    height: 230vh;
     width: 98vw;
 }
 
@@ -131,7 +131,7 @@ article#pag2 {
     top: 200px;
     margin: auto;
     width: 99vw;
-    height: 150vh;
+    height: 155vh;
     background-color: rgb(72, 49, 204);
     box-shadow: inset 0px 10px 10px rgba(0, 0, 0, 0.438);
     border-radius: 150px 0px;
@@ -186,7 +186,7 @@ article#pag2 section#bigcards div#css > div.imgs {
 }
 
 article#pag2 section#bigcards div#css {
-    background-color: rgba(0, 81, 255, 0.637);
+    background-color: rgba(0, 162, 255, 0.637);
     height: 85vh;
 }
 article#pag2 section#bigcards div.imgs a > img {
