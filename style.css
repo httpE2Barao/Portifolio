@@ -189,7 +189,7 @@ article#pag2 section#bigcards div#css {
     background-color: rgba(0, 119, 255, 0.74);
     height: 85vh;
 }
-article#pag2 section#bigcards div.imgs > img {
+article#pag2 section#bigcards div.imgs a > img {
     width: 100%;
     height: 60vh;
     border-radius: 33px;
@@ -200,11 +200,11 @@ article#pag2 section#bigcards > div.imgbottom{
     height: 100%;
 }
 article#pag2 section#bigcards div#js {
-    background-color: rgba(208, 255, 0, 0.856);
+    background-color: rgba(208, 255, 0, 0.815);
 }
 input#botgit  {
     background-color: #fff;
-    padding: 10px;
+    padding: 15px;
     margin-top: 20px;
     font-size: 1.5em;
     font-weight: 700;
