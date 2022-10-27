@@ -108,7 +108,6 @@ section#cards div:hover {
     transform: translate(4px, -4px);
     box-shadow: -7px 7px 5px rgba(0, 0, 0, 0.247);
     transition: transform .3s, box-shadow .3s;
-    cursor: pointer;
 }
 section#cards img {
     position: relative;
