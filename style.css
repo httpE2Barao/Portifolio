@@ -10,6 +10,7 @@ html, body{
     height: 230vh;
     width: 98vw;
 }
+            /* Header */
 
 header { 
     display: block;
@@ -42,6 +43,7 @@ header > section > div:hover {
     cursor: default;
     border-bottom: 3px solid rgb(0, 0, 0);
 }
+            /* Main Tela 1 */
 
 section#fundo {
     background-image: url(Imagens/Foto\ instagram.jpg);
@@ -125,6 +127,7 @@ section#cards img {
     width: 200px;
     border-radius: 50%;
 }
+            /* Main Tela 2 */
 
 article#pag2 {
     position: relative;
@@ -213,7 +216,7 @@ input#botgit  {
 }
 input#botgit:hover {
     transform: translate(0px, -5px);
-    border: 2px solid purple ;
+    border: 2px 4solid purple ;
     transition: transform .4s, border .4s;
     cursor: pointer;
 }
