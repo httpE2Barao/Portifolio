@@ -105,8 +105,9 @@ div.botão input:hover {
 }
 section#cards {
     position: relative;
-    margin-left: 10%;
-    position: relative;
+    display: flex;
+    justify-content: space-around;
+    margin: 0px 30% 0px 10%;
     transform: translateY(130px);
 }
 section#cards div {
@@ -176,7 +177,7 @@ article#pag2 section#bigcards h1 {
 article#pag2 section#bigcards div.img1 {
     background-color: rgba(255, 255, 255, 0.74);
     border-radius: 34px;
-    margin: 0px 23px;
+    margin: 0px 25px;
 }
 
 article#pag2 section#bigcards div.img1 iframe {
