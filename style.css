@@ -86,15 +86,9 @@ body main div.botão input {
     font-weight: bold;
     font-size: 1.3em;
     color: #000;
-}
-body main div.botão {
-    position: relative;
-    top: 5px;
-    transition: transform .3s
-}
-div.botão input {
     transition: transform .2s;
 }
+
 div.botão input:hover {
     position: relative;
     transform: translate(0px, -4px);
@@ -146,10 +140,9 @@ article#pag2 {
 article#pag2 section#bigcards{
     text-align: center;
     display: flex;
-    flex-direction: row;
+    flex-flow: row wrap;
     justify-content: space-around;
-    align-items: baseline;
-    flex-wrap: wrap;
+    align-items: stretch;
 
 }
 article#pag2 > h1 {
@@ -160,9 +153,8 @@ article#pag2 > h1 {
 }
 article#pag2 > section#bigcards > div {
     display: flex;
-    flex-direction: column;
+    flex-flow: column wrap;
     align-items: stretch;
-    align-content: center;
 
     min-width: 300px;
     width: 35vw;
@@ -203,11 +195,11 @@ article#pag2 section#bigcards div.imgs a > img {
     border-radius: 33px;
 }
 
-article#pag2 section#bigcards > div.imgbottom{
+article#pag2 section#bigcard > div.imgbottom{
     width: 50vw;
     height: 100%;
 }
-article#pag2 section#bigcards div#js {
+article#pag2 section#bigcard div#js {
     background-color: rgba(238, 255, 0, 0.815);
 }
 input#botgit  {
