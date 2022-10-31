@@ -122,8 +122,8 @@ section#cards div:hover {
 }
 section#cards img {
     position: relative;
-    height: 200px;
-    width: 200px;
+    max-height: 200px;
+    max-width: 200px;
     border-radius: 50%;
 }
             /* Main Tela 2 */
