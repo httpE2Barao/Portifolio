@@ -154,7 +154,7 @@ article#pag2 > h1 {
 article#pag2 > section#bigcards > div {
     display: flex;
     flex-flow: column wrap;
-    align-items: stretch;
+    flex-basis: content;
 
     min-width: 300px;
     width: 35vw;
@@ -195,9 +195,22 @@ article#pag2 section#bigcards div.imgs a > img {
     border-radius: 33px;
 }
 
-article#pag2 section#bigcard > div.imgbottom{
-    width: 50vw;
+article#pag2 section#bigcard{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+}
+
+article#pag2 section#bigcard > div#js{
+    width: 40vw;
     height: 100%;
+    border-radius: 30px;
+    padding-bottom: 20px;
+    margin-bottom: 30px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
 }
 article#pag2 section#bigcard div#js {
     background-color: rgba(238, 255, 0, 0.815);
