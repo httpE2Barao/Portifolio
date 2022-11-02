@@ -97,6 +97,7 @@ div.botão input:hover {
     cursor: pointer;
 
 }
+
 section#cards {
     position: relative;
     display: flex;
@@ -143,7 +144,6 @@ article#pag2 section#bigcards{
     flex-flow: row wrap;
     justify-content: space-around;
     align-items: stretch;
-
 }
 article#pag2 > h1 {
     padding-top: 50px;
