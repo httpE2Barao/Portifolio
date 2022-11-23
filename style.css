@@ -15,24 +15,26 @@ html, body{
 header { 
     display: flex;
     text-align: left;
-    width: 98vw;
+    position: relative;
+    width: 97;
     height: 100px;
     padding: 33px;
-    padding-left: 5%;
+    margin: 0 5vw;
 }
 header h1 {
     display: inline-block;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     font-weight: 900;
-    font-size: 3em;
+    font-size: 4.5em;
 }
 header section.opções {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     display: flex;
     flex-direction: row;
     justify-content: baseline;
-    position: relative;
-    top: 10px;
-    left: 5%;
+    position: absolute;
+    top: 50px;
+    right: 0;
 }
 header > section > div {
     display: inline-block;
@@ -45,7 +47,6 @@ header > section > div {
 header > section > div:hover {
     cursor: default;
     border-bottom: 3px solid rgb(0, 0, 0);
-    border-radius: 50%;
 }
             /* Main Tela 1 */
 
