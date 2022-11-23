@@ -4,7 +4,7 @@
     padding: 0cm;
     margin: 0cm;
     text-decoration: none;
-    color: #000;
+    color: rgb(0, 0, 0);
 }
 html, body{
     height: 230vh;
@@ -191,7 +191,6 @@ article#pag2 section#bigcards div#html{
     background-color: rgba(255, 81, 0, 0.767);
     height: 80vh;
 }
-
 
 div.imgs {
     display: flex;
