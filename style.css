@@ -195,11 +195,11 @@ article#pag2 section#bigcards div#html{
 
 div.imgs {
     display: flex;
-    min-width: 480px;
+    width: 515px;
     flex-direction: column;
 }
 article#pag2 section#bigcards div#css {
-    background: bottom #3B05F3 #1303E4;
+    background: linear-gradient(#3B05EF, #1303E4);
     height: 700px;
 }
 article#pag2 section#bigcards div.imgs a > img {
