@@ -1,0 +1,79 @@
+@charset "UTF-8";
+
+@media screen and (min-width: 100px) and (max-width: 500px){
+    section#fundo {
+        background-image: none;
+    }
+    body > main > article > div#info {
+        text-align: center;
+        left: 50%;
+        transform: translate(-50%, 0);
+        margin-top: 50px;
+    }
+    div.botão {
+        display: flex;
+        justify-content: center;
+        margin-top: 20px;
+    }
+    section#cards {
+        width: 80vw;
+        justify-content: space-around;
+    }
+    section#cards img {
+        height: 120px;
+        width: 120px;
+        border-radius: 50%;
+    }article#pag2 {
+        position: relative;
+        top: 220px;
+    }
+}
+@media screen and (min-width: 500px) and (max-width: 800px){
+    section#fundo {
+        background-image: none;
+    }
+    body > main > article > div#info {
+        text-align: center;
+        left: 50%;
+        transform: translate(-50%, 0);
+        margin-top: 50px;
+    }
+    div.botão {
+        display: flex;
+        justify-content: center;
+        margin-top: 20px;
+    }
+    section#cards {
+        width: 80vw;
+        justify-content: space-around;
+    }
+    section#cards img {
+        height: 140px;
+        width: 140px;
+        border-radius: 50%;
+    }
+}
+@media screen and (min-width: 800px) and (max-width: 1135px){
+    section#fundo {
+        background-image: none;
+    }
+    body > main > article > div#info {
+        text-align: center;
+        left: 50%;
+        transform: translate(-50%, 0);
+    }
+    div.botão {
+        display: flex;
+        justify-content: center;
+        margin-top: 20px;
+    }
+    section#cards {
+        width: 77vw;
+        justify-content: center;
+    }
+    article#pag2 {
+        position: relative;
+        top: 180px;
+    }
+}
+
