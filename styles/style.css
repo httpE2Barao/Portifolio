@@ -58,7 +58,7 @@ header > section > div:hover {
             /* Main Tela 1 */
 
 section#fundo {
-    background-image: url(Imagens/Foto\ instagram.jpg);
+    background-image: url(../Imagens/Foto-instagram.png);
     background-repeat: no-repeat;
     background-position: right;
     background-size: auto;
@@ -116,11 +116,11 @@ section#cards {
 }
 section#cards div {
     display: inline-block;
-    background-color: white;
+    height: 200px;
     margin-left: 5%;
     text-align: center;
     border: 1px solid rgba(148, 148, 148, 0.39);
-    border-radius: 50px ;
+    border-radius: 50px;
     box-shadow: -3px 3px 5px 0px rgb(0 0 0 / 40%);
     transition: transform .3s, box-shadow .3s;
 }
@@ -134,7 +134,7 @@ section#cards img {
     position: relative;
     max-height: 200px;
     max-width: 200px;
-    border-radius: 50%;
+    border-radius: 50px;
 }
             /* Main Tela 2 */
 
@@ -156,14 +156,13 @@ article#pag2 section#bigcards{
     align-items: stretch;
 }
 article#pag2 > h1 {
-    padding-top: 50px;
+    padding: 65px 0px 25px 0px;
     text-align: center;
     color: #fff;
     text-shadow: 4px 4px 5px rgba(0, 0, 0, 0.568);
 }
 article#pag2 > section#bigcards > div {
     height: 100vh;
-    margin: 2%;
     border-radius: 30px;
     box-shadow: 0px 0px 15px 10px rgb(0 0 0 / 25%);
 }
@@ -193,7 +192,7 @@ article#pag2 section#bigcards div#html{
     background-color: rgba(255, 81, 0, 0.658);
     height: 700px;
     align-content: center;
-    margin: 40px 0;
+    margin: 40px;
 }
 
 div.imgs {
@@ -204,7 +203,7 @@ div.imgs {
 article#pag2 section#bigcards div#css {
     background: linear-gradient(#3B05EF, #1303E4);
     height: 700px;
-    margin: 40px 0;
+    margin: 40px;
 }
 article#pag2 section#bigcards div.imgs a > img {
     width: 100%;
@@ -220,16 +219,16 @@ article#pag2 section#bigcard > div#js{
     width: 70vw;
     height: 100%;
     border-radius: 30px;
-    padding: 20px 0px 40px 0px;
+    padding: 30px 0px 50px 0px;
     margin: 50px 0px;
     display: flex;
     justify-content: center;
     flex-direction: column;
-    background-color: rgba(238, 255, 0, 0.815);
-    background-image: linear-gradient(rgba(238, 255, 0, 0.815), rgba(255, 208, 0, 0.815));
+    background-image: linear-gradient(to bottom, rgba(238, 255, 0, 0.932), rgb(231, 169, 0));
     position: static;
+    cursor: move;
+    box-shadow: 0px 0px 15px 10px rgba(0, 0, 0, 0.164);
 }
-
 
 input#botgit  {
     background-color: #fff;
@@ -245,4 +244,16 @@ input#botgit:hover {
     border: 2px 4solid purple ;
     transition: transform .4s, border .4s;
     cursor: pointer;
+}
+
+article#pag3 > section {
+    width: 99vw;
+    height: 1300px;
+    position: initial;
+    padding-top: 180px;
+    background-color: rgb(0, 0, 0)
+}
+article#pag3 > section > div{
+    background-color: #1303E4;
+    
 }

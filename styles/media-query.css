@@ -20,12 +20,13 @@
         justify-content: space-around;
     }
     section#cards > div {
+        height: 122px;
         border-radius: 20px;
     }
     section#cards img {
         height: 120px;
         width: 120px;
-        border-radius: 50%;
+        border-radius: 20px;
     }
     article#pag2 {
         position: relative;
@@ -93,11 +94,12 @@
     }
     section#cards > div {
         border-radius: 30px;
+        height: 152px;
     }
     section#cards img {
         height: 150px;
         width: 150px;
-        border-radius: 50%;
+        border-radius: 30px;
     }
     article#pag2 {
         position: relative;
