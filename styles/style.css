@@ -42,19 +42,21 @@ header nav.opções {
     top: 50px;
     right: 0;
 }
+            /* Botão mobile */
 header nav.opções div.mobile-menu-icon {
     display: none;
 }
 header nav.opções div.mobile-menu-icon button {
     justify-items: center;
     transform: translate(0, -15px);
-    
+    border: none;
+    border-radius: 20px;
 }
 header nav.opções div.mobile-menu-icon button img {
     padding: 10px 20px;
     transform: translate(-25%);
-    
 }
+
 header > nav > div {
     display: inline-block;
     margin: 15px;

@@ -36,13 +36,14 @@
     nav.opções > div {
         display: none;
     }
-    nav.opções div.mobile-menu-icon button {
+    header nav.opções div.mobile-menu-icon {
         display: block;
-        position: relative;
-
     }
     header > nav > div:hover {
         border-bottom: none;
+    }
+    header > nav > div > button:hover {
+        cursor: pointer;
     }
     article#pag2 section#bigcards div#html {
         background-color: rgba(255, 81, 0, 0.658);
@@ -77,13 +78,14 @@
     nav.opções > div {
         display: none;
     }
-    header > div.mobile-menu-icon {
+    header nav.opções div.mobile-menu-icon {
         display: block;
-        position: sticky;
-        justify-content: center;
     }
     header > nav > div:hover {
         border-bottom: none;
+    }
+    header > nav > div > button:hover {
+        cursor: pointer;
     }
     body > main > article > div#info {
         text-align: center;
