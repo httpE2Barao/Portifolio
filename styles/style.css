@@ -78,7 +78,7 @@ main p {
     margin: 15px;
 }
 body > main > article > div#info {
-    padding: 0px 8px;
+    padding: 10px;
     border-radius: 30px;
     max-width: 400px;
     max-height: 400px;
