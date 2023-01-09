@@ -12,3 +12,11 @@ function menuShow () {
         menuMobileIcon.classList.add('aberto')
     }
 }
+
+function click () {
+    document.querySelector('main2').addEventListener("click", rolar);
+    document.querySelector('main3').addEventListener("click", rolar);
+}
+function rolar () {
+    
+}
