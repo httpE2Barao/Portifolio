@@ -45,22 +45,7 @@
     header > nav > div > button:hover {
         cursor: pointer;
     }
-    header div.mobile-opções div {
-        padding: 1.5rem;
 
-    }
-    header div.mobile-opções ul {
-        display: flex;
-        flex-direction: column;
-        text-align: center;
-        padding-bottom: 1rem;
-    }
-    header div.mobile-opções li {
-        text-decoration: none;
-    }
-    .open {
-        display: block;
-    }
     article#pag2 section#bigcards div#html {
         background-color: rgba(255, 81, 0, 0.658);
         width: 100vw;
@@ -103,15 +88,8 @@
     header > nav > div > button:hover {
         cursor: pointer;
     }
-    header div.mobile-opções ul {
-        display: flex;
-        flex-direction: column;
-        text-align: center;
-        padding-bottom: 1rem;
-    }
-    .open {
-        display: block;
-    }
+    
+
     body > main > article > div#info {
         text-align: center;
         left: 50%;

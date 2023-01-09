@@ -15,7 +15,7 @@ html, body{
             /* Header */
 
 header { 
-    display: flex;
+    display: grid;
     text-align: left;
     position: relative;
     width: 97;
@@ -34,7 +34,6 @@ header h1:hover {
     cursor: default;
 }
 header nav.opções {
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     display: flex;
     flex-direction: row;
     justify-content: baseline;
@@ -42,9 +41,34 @@ header nav.opções {
     top: 50px;
     right: 0;
 }
+
             /* Botão mobile */
 .mobile-opções {
     display: none;
+    justify-self: right;
+}
+.nav-item a {
+    color: black;
+    font-size: 1.2em;
+    font-weight: 600;
+}
+.open {
+    display: block;
+    justify-content: center;
+    padding: 20px;
+    width: 200px;
+    height: 150px;
+    background-color: #F0F0F0;
+    border-radius: 50px 0px 20px 50px;
+    transform: translate(-22px, -77px);
+}
+header div.mobile-opções ul {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+header div.mobile-opções li {
+    padding-bottom: 1em;
 }
 header nav.opções div.mobile-menu-icon button img {
     padding: 10px 20px;
@@ -58,6 +82,9 @@ header nav.opções div.mobile-menu-icon button {
     transform: translate(0, -15px);
     border: none;
     border-radius: 20px;
+}
+header nav.opções div.mobile-menu-icon button.aberto {
+    border-radius: 0 20px 20px 0;
 }
 
 header > nav > div {

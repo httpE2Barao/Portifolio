@@ -5,4 +5,10 @@ function menuShow () {
     } else {
         menuMobile.classList.add('open')
     }
+    let menuMobileIcon = document.querySelector('.menu-icon')
+    if (menuMobileIcon.classList.contains('aberto')) {
+        menuMobileIcon.classList.remove('aberto')
+    } else {
+        menuMobileIcon.classList.add('aberto')
+    }
 }
