@@ -33,8 +33,16 @@
         top: 225px;
         border-radius: 70px 0px;
     }
-    section.opções > div {
+    nav.opções > div {
         display: none;
+    }
+    nav.opções div.mobile-menu-icon button {
+        display: block;
+        position: relative;
+
+    }
+    header > nav > div:hover {
+        border-bottom: none;
     }
     article#pag2 section#bigcards div#html {
         background-color: rgba(255, 81, 0, 0.658);
@@ -66,8 +74,16 @@
     section#fundo {
         background-image: none;
     }
-    section.opções > div {
+    nav.opções > div {
         display: none;
+    }
+    header > div.mobile-menu-icon {
+        display: block;
+        position: sticky;
+        justify-content: center;
+    }
+    header > nav > div:hover {
+        border-bottom: none;
     }
     body > main > article > div#info {
         text-align: center;

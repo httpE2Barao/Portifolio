@@ -33,7 +33,7 @@ header h1 {
 header h1:hover {
     cursor: default;
 }
-header section.opções {
+header nav.opções {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     display: flex;
     flex-direction: row;
@@ -42,7 +42,20 @@ header section.opções {
     top: 50px;
     right: 0;
 }
-header > section > div {
+header nav.opções div.mobile-menu-icon {
+    display: none;
+}
+header nav.opções div.mobile-menu-icon button {
+    justify-items: center;
+    transform: translate(0, -15px);
+    
+}
+header nav.opções div.mobile-menu-icon button img {
+    padding: 10px 20px;
+    transform: translate(-25%);
+    
+}
+header > nav > div {
     display: inline-block;
     margin: 15px;
     margin-right: 0px;
@@ -50,11 +63,13 @@ header > section > div {
     font-size: 1.3em;
     font-weight: 600;
 }
-header > section > div:hover {
+header > nav > div:hover {
     cursor: default;
     border-bottom: 3px solid rgb(255, 255, 255);
     margin-bottom: 12px;
-
+}
+header > div.mobile-opções {
+    display: none;
 }
             /* Main Tela 1 */
 
@@ -83,7 +98,7 @@ body > main > article > div#info {
     max-width: 400px;
     max-height: 400px;
     position: relative;
-    left: 13%;
+    left: 20%;
     top: 50px;
     text-align: left;
 }
