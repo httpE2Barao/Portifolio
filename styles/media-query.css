@@ -1,6 +1,9 @@
 @charset "UTF-8";
 
 @media screen and (min-width: 100px) and (max-width: 600px){
+    html body {
+        overflow-x: hidden; 
+    }
     header nav.opções div.mobile-menu-icon {
         display: block;
     }
@@ -24,10 +27,12 @@
     section#cards {
         width: 80vw;
         justify-content: space-around;
+        margin: 100px 0 0px 7%;
     }
     section#cards > div {
         height: 122px;
         border-radius: 20px;
+
     }
     section#cards img {
         height: 120px;
@@ -71,6 +76,9 @@
 }
 
 @media screen and (min-width: 600px) and (max-width: 800px){
+    html body {
+        overflow-x: hidden; 
+    }
     nav.opções > div {
         display: none;
     }
@@ -107,6 +115,7 @@
     section#cards {
         width: 80vw;
         justify-content: space-around;
+        margin: 100px 0 0px 7%;
     }
     section#cards > div {
         border-radius: 30px;
@@ -126,6 +135,9 @@
 }
 
 @media screen and (min-width: 800px) and (max-width: 1135px){
+    html body {
+        overflow-x: hidden; 
+    }
     nav.opções > div {
         display: none;
     }
