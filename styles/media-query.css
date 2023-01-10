@@ -1,8 +1,14 @@
 @charset "UTF-8";
 
 @media screen and (min-width: 100px) and (max-width: 600px){
-    section#fundo {
-        background-image: none;
+    header nav.opções div.mobile-menu-icon {
+        display: block;
+    }
+    header > nav > div:hover {
+        border-bottom: none;
+    }
+    header > nav > div > button:hover {
+        cursor: pointer;
     }
     body > main > article > div#info {
         text-align: center;
@@ -36,15 +42,7 @@
     nav.opções > div {
         display: none;
     }
-    header nav.opções div.mobile-menu-icon {
-        display: block;
-    }
-    header > nav > div:hover {
-        border-bottom: none;
-    }
-    header > nav > div > button:hover {
-        cursor: pointer;
-    }
+    
 
     article#pag2 section#bigcards div#html {
         background-color: rgba(255, 81, 0, 0.658);
@@ -73,9 +71,6 @@
 }
 
 @media screen and (min-width: 600px) and (max-width: 800px){
-    section#fundo {
-        background-image: none;
-    }
     nav.opções > div {
         display: none;
     }
@@ -131,8 +126,17 @@
 }
 
 @media screen and (min-width: 800px) and (max-width: 1135px){
-    section#fundo {
-        background-image: none;
+    nav.opções > div {
+        display: none;
+    }
+    header nav.opções div.mobile-menu-icon {
+        display: block;
+    }
+    header > nav > div:hover {
+        border-bottom: none;
+    }
+    header > nav > div > button:hover {
+        cursor: pointer;
     }
     body > main > article > div#info {
         text-align: center;
