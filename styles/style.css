@@ -93,9 +93,7 @@ header nav.opções div.mobile-menu-icon button {
 header nav.opções div.mobile-menu-icon button.aberto {
     border-radius: 0 20px 20px 0;
 }
-#pag3 header nav.opções div.aberto button {
-    border-radius: 0 20px 20px 0;
-}
+
             /* Menu pag3 */
 
 article#pag3 .open{
@@ -109,7 +107,10 @@ article#pag3 .open{
     border: solid 3px #cacaca;
     border-top: none;
     border-right: none;
-    transform: translate(-18px, 19px);
+    transform: translate(-22px, 19px);
+}
+#pag3 header nav.opções div.aberto button {
+    border-radius: 0 20px 20px 0;
 }
 .main1 a, .m3 a{
     border-bottom: 3px solid rgb(120, 156, 255);
