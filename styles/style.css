@@ -93,6 +93,9 @@ header nav.opções div.mobile-menu-icon button {
 header nav.opções div.mobile-menu-icon button.aberto {
     border-radius: 0 20px 20px 0;
 }
+#pag3 header nav.opções div.aberto button {
+    border-radius: 0 20px 20px 0;
+}
             /* Menu pag3 */
 
 article#pag3 .open{
