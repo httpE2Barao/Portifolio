@@ -55,11 +55,8 @@ header nav.opções {
 .nav-item a:hover {
     border-bottom: 3px solid rgb(0, 0, 0);
 }
-.main1 a {
-    border-bottom: 3px solid rgb(255, 255, 255);
-}
 .main a {
-    border-bottom: 3px solid rgb(0, 0, 0);
+    border-bottom: 3px solid rgb(99, 115, 255);
 }
 .open {
     display: block;
@@ -71,6 +68,14 @@ header nav.opções {
     border-radius: 50px 0px 20px 50px;
     transform: translate(-22px, -75px);
 }
+.main1 a, .p3 a {
+    border-bottom: 3px solid rgb(120, 156, 255);
+}
+.main2:hover a, .main3:hover a{
+    border-bottom: 3px solid rgb(255, 255, 255);
+    margin-bottom: 12px;
+}
+
 header div.mobile-opções ul {
     display: flex;
     flex-direction: column;
@@ -95,7 +100,7 @@ header nav.opções div.mobile-menu-icon button.aberto {
     border-radius: 0 20px 20px 0;
 }
 
-header > nav > div {
+nav > div {
     display: inline-block;
     margin: 15px;
     margin-right: 0px;
@@ -103,10 +108,7 @@ header > nav > div {
     font-size: 1.3em;
     font-weight: 600;
 }
-.main2:hover, .main3:hover {
-    border-bottom: 3px solid rgb(255, 255, 255);
-    margin-bottom: 12px;
-}
+
             /* Main Tela 1 */
 
 section#fundo {
@@ -296,7 +298,7 @@ input#botgit:hover {
     cursor: pointer;
 }
 
-article#pag3 > section {
+article#pag3 {
     margin-top: 200px;
     width: 99vw;
     height: 1300px;
@@ -304,6 +306,6 @@ article#pag3 > section {
     background-color: rgb(255, 255, 255)
 }
 article#pag3 > section > div{
-    background-color: #1303E4;
+
     
 }
