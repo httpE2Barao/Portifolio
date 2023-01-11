@@ -11,19 +11,19 @@
 </head>
 <body>
     <section id="fundo"></section>
-    <header>
+    <header id="home">
         <h1>E.</h1>
         <nav class="opções">
-            <div class="main1"><a href="#">.Sobre</a></div>
+            <div class="main1"><a href="#home">.Sobre</a></div>
             <div class="main2"><a href="#pag2">.Projetos</a></div>
             <div class="main3"><a href="#pag3">.Extras</a></div>
             <div class="mobile-menu-icon">
                 <button class="menu-icon" onclick="menuShow()"><img class="icon" src="Imagens/menu-icon.svg" alt="Menu"></button>
             </div>
         </nav>
-        <div class="mobile-opções">
+        <div class="primeiromenu">
             <ul type="none">
-                <li class="nav-item main" ><a href="">.Sobre</a></li>
+                <li class="nav-item main" ><a href="#home">.Sobre</a></li>
                 <li class="nav-item"><a href="#pag2">.Projetos</a></li>
                 <li class="nav-item"><a href="#pag3">.Extras</a></li>
             </ul>
@@ -79,13 +79,20 @@
         <article id="pag3">
             <header>
                 <nav class="opções">
-                    <div class="main2"><a href="#">.Sobre</a></div>
+                    <div class="main2"><a href="#home">.Sobre</a></div>
                     <div class="main2"><a href="#pag2">.Projetos</a></div>
                     <div class="m3"><a href="#pag3">.Extras</a></div>
-                    <div class="mobile-menu-icon">
-                        <button class="menu-icon" onclick="menuShow()"><img class="icon" src="Imagens/menu-icon.svg" alt="Menu"></button>
+                    <div class="mobile-menu-icon segundoicon">
+                        <button class="menu-icon" onclick="segundomenuShow()"><img class="icon" src="Imagens/menu-icon.svg" alt="Menu"></button>
                     </div>
                 </nav>
+                <div class="segundomenu">
+                    <ul type="none">
+                        <li class="nav-item" ><a href="#home">.Sobre</a></li>
+                        <li class="nav-item"><a href="#pag2">.Projetos</a></li>
+                        <li class="nav-item main"><a href="#pag3">.Extras</a></li>
+                    </ul>
+                </div>
             </header>
 
         </article>

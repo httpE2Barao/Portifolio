@@ -36,14 +36,13 @@ header h1:hover {
 header nav.opções {
     display: flex;
     flex-direction: row;
-    justify-content: baseline;
     position: absolute;
     top: 50px;
     right: 0;
 }
 
             /* Botão mobile */
-.mobile-opções {
+.primeiromenu, .segundomenu{
     display: none;
     justify-self: right;
 }
@@ -58,6 +57,8 @@ header nav.opções {
 .main a {
     border-bottom: 3px solid rgb(99, 115, 255);
 }
+            /* Menu */
+
 .open {
     display: block;
     justify-content: center;
@@ -68,20 +69,21 @@ header nav.opções {
     border-radius: 50px 0px 20px 50px;
     transform: translate(-22px, -75px);
 }
-header div.mobile-opções ul {
+div.primeiromenu ul, div.segundomenu ul{
     display: flex;
     flex-direction: column;
     text-align: center;
 }
-header div.mobile-opções li {
+div.primeiromenu li, div.segundomenu li{
     padding-bottom: 1em;
-}
-header nav.opções div.mobile-menu-icon button img {
-    min-width: 50px;
 }
 header nav.opções div.mobile-menu-icon {
     display: none;
 }
+header nav.opções div.mobile-menu-icon button img {
+    min-width: 50px;
+}
+
 header nav.opções div.mobile-menu-icon button {
     justify-items: center;
     transform: translate(0, -13px);
@@ -91,7 +93,21 @@ header nav.opções div.mobile-menu-icon button {
 header nav.opções div.mobile-menu-icon button.aberto {
     border-radius: 0 20px 20px 0;
 }
+            /* Menu pag3 */
 
+article#pag3 .open{
+    display: block;
+    justify-content: center;
+    padding: 20px;
+    width: 200px;
+    height: 150px;
+    background-color: #F0F0F0;
+    border-radius: 50px 0px 20px 50px;
+    border: solid 3px #cacaca;
+    border-top: none;
+    border-right: none;
+    transform: translate(-18px, 19px);
+}
 .main1 a, .m3 a{
     border-bottom: 3px solid rgb(120, 156, 255);
 }
@@ -117,7 +133,7 @@ nav > div {
     font-weight: 600;
 }
 
-            /* Main Tela 1 */
+            /* Tela 1 */
 
 section#fundo {
     background-color: rgb(0, 0, 0);
@@ -195,7 +211,7 @@ section#cards img {
     max-width: 200px;
     border-radius: 50px;
 }
-            /* Main Tela 2 */
+            /* Tela 2 */
 
 article#pag2 {
     position: relative;
@@ -305,6 +321,7 @@ input#botgit:hover {
     transition: transform .4s, border .4s;
     cursor: pointer;
 }
+            /* Tela 3 */
 
 article#pag3 {
     margin-top: 200px;

@@ -1,5 +1,5 @@
 function menuShow () {
-    let menuMobile = document.querySelector('.mobile-opções')
+    let menuMobile = document.querySelector('.primeiromenu')
     if (menuMobile.classList.contains('open')) {
         menuMobile.classList.remove('open')
     } else {
@@ -12,11 +12,17 @@ function menuShow () {
         menuMobileIcon.classList.add('aberto')
     }
 }
-
-function click () {
-    document.querySelector('main2').addEventListener("click", rolar);
-    document.querySelector('main3').addEventListener("click", rolar);
-}
-function rolar () {
-    
+function segundomenuShow () {
+    let menuMobile = document.querySelector('.segundomenu')
+    if (menuMobile.classList.contains('open')) {
+        menuMobile.classList.remove('open')
+    } else {
+        menuMobile.classList.add('open')
+    }
+    let menuMobileIcon = document.querySelector('.segundoicon')
+    if (menuMobileIcon.classList.contains('aberto')) {
+        menuMobileIcon.classList.remove('aberto')
+    } else {
+        menuMobileIcon.classList.add('aberto')
+    }
 }
