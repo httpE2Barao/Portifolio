@@ -21,6 +21,7 @@
     div.botão {
         display: flex;
         justify-content: center;
+        transform: translate(-27%);
     }
     section#cards {
         width: 80vw;
@@ -88,6 +89,7 @@
         display: flex;
         justify-content: center;
         margin-top: 40px;
+        transform: translate(-23%);
     }
     section#cards {
         width: 80vw;
@@ -168,6 +170,7 @@
         display: flex;
         justify-content: center;
         margin-top: 40px;
+        transform: translate(-22%);
     }
     div.img1 {
         display: inline-block;
@@ -224,6 +227,7 @@
         display: flex;
         justify-content: center;
         margin-top: 20px;
+        transform: translate(-22%);
     }
     div.img1 {
         margin: 0px 25px;

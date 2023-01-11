@@ -177,6 +177,7 @@ body main div.botão input {
     font-size: 1.3em;
     color: #000;
     transition: transform .2s;
+    justify-self: center;
 }
 
 div.botão input:hover {
