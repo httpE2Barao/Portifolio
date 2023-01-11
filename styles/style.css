@@ -13,7 +13,7 @@ html, body{
     height: 230vh;
     width: 98vw;
 }
-            /* Header */
+            /* Logo */
 
 header { 
     display: grid;
@@ -68,14 +68,6 @@ header nav.opções {
     border-radius: 50px 0px 20px 50px;
     transform: translate(-22px, -75px);
 }
-.main1 a, .p3 a {
-    border-bottom: 3px solid rgb(120, 156, 255);
-}
-.main2:hover a, .main3:hover a{
-    border-bottom: 3px solid rgb(255, 255, 255);
-    margin-bottom: 12px;
-}
-
 header div.mobile-opções ul {
     display: flex;
     flex-direction: column;
@@ -99,6 +91,22 @@ header nav.opções div.mobile-menu-icon button {
 header nav.opções div.mobile-menu-icon button.aberto {
     border-radius: 0 20px 20px 0;
 }
+
+.main1 a, .m3 a{
+    border-bottom: 3px solid rgb(120, 156, 255);
+}
+.main2:hover a, .main3:hover a{
+    border-bottom: 3px solid rgb(255, 255, 255);
+    margin-bottom: 12px;
+}
+article#pag3 nav a {
+    color: #000;
+}
+article#pag3 nav div a:hover {
+    border-bottom: 3px solid rgb(0, 0, 0);
+    margin-bottom: 12px;
+}
+
 
 nav > div {
     display: inline-block;
