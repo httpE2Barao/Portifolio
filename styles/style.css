@@ -127,6 +127,7 @@ article#pag3 nav div a:hover {
     margin-bottom: 12px;
 }
 
+            /* Main */
 
 nav > div {
     display: inline-block;
@@ -134,7 +135,7 @@ nav > div {
     margin-right: 0px;
     padding-right: 15px;
     font-size: 1.3em;
-    font-weight: 600;
+    font-weight: 650;
 }
 
             /* Tela 1 */
