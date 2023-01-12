@@ -1,3 +1,16 @@
+:root {
+    --laranja: #DF5025;
+    --roxo: #3B05EF;
+    --azul: #1303E4;
+    --amarelo-claro: #eeff00ee;
+    --amarelo-escuro: #c99300;
+    --gradient: linear-gradient(
+        to right,
+        var(--laranja),
+        var(--roxo),
+        var(--amarelo-escuro)
+    );
+}
 * {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     box-sizing: border-box;
@@ -7,11 +20,11 @@
     color: rgb(255, 255, 255);
     line-height: 1.3;
     scroll-behavior: smooth;
-    max-width: 98.7vw;
+    max-width: 98.5vw;
 }
 html, body{
     height: 230vh;
-    width: 98vw;
+    width: 100vw;
 }
             /* Logo */
 
@@ -141,11 +154,25 @@ nav > div {
             /* Tela 1 */
 
 section#fundo {
-    background-color: rgb(0, 0, 0);
-    background-size: auto;
+    background-image: var(--gradient);
+    background-size: 500% 100%;
     position: absolute;
-    width: 98.7vw;
+    width: 100vw;
     min-height: 1177px;
+    
+    animation-name: background;
+    animation-duration: 7s;
+    animation-timing-function: ease-in-out;
+    animation-direction: alternate;
+    animation-iteration-count: infinite;
+}
+@keyframes background {
+    0%{
+        background-position-x: 0%;
+    }
+    100%{
+        background-position-x: 100%;
+    }
 }
 
 main h1 {
@@ -254,7 +281,7 @@ article#pag2 > section#bigcards h1 {
 }
 article#pag2 > section#bigcards > div h3 {
     color: #ffff;
-    padding: 30px;
+    padding: 20px 30px;
     display: block;
     font-weight: 600;
 }
@@ -270,7 +297,7 @@ article#pag2 section#bigcards div.img1 iframe {
     border-radius: 34px;
 }
 article#pag2 section#bigcards div#html{
-    background-color: #DF5025;
+    background-color: var(--laranja);
     height: 700px;
     align-content: center;
     margin: 40px;
@@ -305,7 +332,7 @@ article#pag2 section#bigcard > div#js{
     display: flex;
     justify-content: center;
     flex-direction: column;
-    background-image: linear-gradient(to bottom, rgba(238, 255, 0, 0.932), rgb(231, 169, 0));
+    background-image: linear-gradient(to bottom, #eeff00ee, #e7a900);
     position: static;
     cursor: move;
     box-shadow: 0px 0px 15px 10px rgba(0, 0, 0, 0.164);
