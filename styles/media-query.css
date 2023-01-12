@@ -4,6 +4,16 @@
     html body {
         overflow-x: hidden; 
     }
+    header h1 {
+        font-size: 3em;
+    }
+    body main h1 {
+        font-size: 2em;
+    }
+    body main p {
+        font-size: .8em;
+        paddi
+    }
     header nav.opções div.mobile-menu-icon {
         display: block;
     }
@@ -60,7 +70,7 @@
         transform: translate(-22px, -75px);
     }
     header nav.opções div.mobile-menu-icon button img {
-        min-width: 40px;
+        min-width: 33px;
     }
     #js {
         font-size: small;

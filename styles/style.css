@@ -178,7 +178,7 @@ main h1 {
     text-shadow: 2px 2px 3px rgba(0, 0, 0, 0.233);
 }
 main p {
-    margin: 15px;
+    margin: 25px 40px;
 }
 body > main > article > div#info {
     padding: 10px;
