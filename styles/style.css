@@ -79,7 +79,7 @@ header nav.opções {
     width: 200px;
     height: 150px;
     background-color: #F0F0F0;
-    border-radius: 50px;
+    border-radius: 50px 0 50px 50px;
     transform: translate(-22px, -75px);
 }
 div.primeiromenu ul, div.segundomenu ul{
