@@ -206,7 +206,7 @@ body main div.botão input {
 div.botão input:hover {
     position: absolute;
     transform: translate(0px, -4px);
-    border: 2px solid rgb(61, 61, 61) ;
+    border: 2px solid rgb(61, 61, 61);
     transition: transform .3s, border .2s;
     cursor: pointer;
 }
@@ -231,7 +231,7 @@ section#cards div {
 section#cards div:hover {
     position: relative;
     transform: translate(5px, -5px);
-    box-shadow: -8px 8px 5px rgba(97, 97, 97, 0.733);
+    box-shadow: -8px 8px 5px rgba(0, 0, 0, 0.384);
     transition: transform .4s, box-shadow .4s;
 }
 section#cards img {
