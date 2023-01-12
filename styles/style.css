@@ -160,11 +160,7 @@ section#fundo {
     width: 100vw;
     min-height: 1177px;
     
-    animation-name: background;
-    animation-duration: 7s;
-    animation-timing-function: ease-in-out;
-    animation-direction: alternate;
-    animation-iteration-count: infinite;
+    animation: background 7s infinite alternate ease-in-out;
 }
 @keyframes background {
     0%{
@@ -210,7 +206,7 @@ body main div.botão input {
 div.botão input:hover {
     position: absolute;
     transform: translate(0px, -4px);
-    border: 2px solid purple ;
+    border: 2px solid rgb(61, 61, 61) ;
     transition: transform .3s, border .2s;
     cursor: pointer;
 }
