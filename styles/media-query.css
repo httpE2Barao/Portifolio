@@ -13,6 +13,9 @@
     body main p {
         font-size: .8em;
     }
+    header nav.opções div.mobile-menu-icon button {
+        transform: translate(0, -15px);
+    }
     header nav.opções div.mobile-menu-icon {
         display: block;
     }
@@ -35,7 +38,7 @@
     section#cards {
         width: 80vw;
         justify-content: space-around;
-        margin: 50px 0 0px 7%;
+        margin: 80px 0 0px 7%;
     }
     section#cards > div {
         height: 80px;
@@ -75,7 +78,9 @@
         font-size: small;
     }
     article#pag3 .open{
-        transform: translate(-10px, 19px);
+        width: 150px;
+        height: 140px;
+        transform: translate(-10px, 17px);
     }
 }
 @media screen and (min-width: 550px) and (max-width: 600px){
