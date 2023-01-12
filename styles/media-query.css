@@ -1,6 +1,6 @@
 @charset "UTF-8";
 
-@media screen and (min-width: 100px) and (max-width: 450px) {
+@media screen and (min-width: 100px) and (max-width: 550px) {
     html body {
         overflow-x: hidden; 
     }
@@ -12,7 +12,6 @@
     }
     body main p {
         font-size: .8em;
-        paddi
     }
     header nav.opções div.mobile-menu-icon {
         display: block;
@@ -66,8 +65,8 @@
         width: 150px;
         height: 130px;
         background-color: #F0F0F0;
-        border-radius: 30px 0px 10px 30px;
-        transform: translate(-22px, -75px);
+        border-radius: 30px;
+        transform: translate(-11px, -75px);
     }
     header nav.opções div.mobile-menu-icon button img {
         min-width: 33px;
@@ -75,8 +74,11 @@
     #js {
         font-size: small;
     }
+    article#pag3 .open{
+        transform: translate(-10px, 19px);
+    }
 }
-@media screen and (min-width: 450px) and (max-width: 600px){
+@media screen and (min-width: 550px) and (max-width: 600px){
     html body {
         overflow-x: hidden; 
     }
